@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Vite
+.vite/
+
+# Security files (CloudFront keys)
+*.pem
+*.key
+*.crt
+private_key.pem
+public_key.pem
+
+# Video files (optional - uncomment if you don't want to commit video files)
+# *.mp4
+# *.m3u8
+# *.ts
+# *.webm
+# *.avi
+# *.mov
+
+# Temporary files
+tmp/
+temp/
