@@ -124,4 +124,10 @@ app.get("/api/proxy", async (req: Request, res: Response) => {
 });
 
 const PORT = Number(process.env.PORT) || 4000;
-app.listen(PORT, () => console.log(`server listening on ${PORT}`));
+
+// Only start server when not in test environment
+if (process.env.NODE_ENV !== "test") {
+  app.listen(PORT, () => console.log(`server listening on ${PORT}`));
+}
+
+export default app;
